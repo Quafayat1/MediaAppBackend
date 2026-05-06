@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posts API Test</title>
+</head>
+<body>
+    <h1>Posts API Test</h1>
+
+    <div>
+        <h2>Add Post</h2>
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="content" placeholder="Content" />
+        <input type="text" id="author" placeholder="Author" />
+        <button onclick="addPost()">Add Post</button>
+    </div>
+
+    <div>
+        <h2>Posts</h2>
+        <button onclick="getPosts()">Refresh Posts</button>
+        <ul id="postsList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
