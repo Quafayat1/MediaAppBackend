@@ -27,8 +27,8 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PURPLE_ISLAND_0D94A601E }}
           action: "upload"
 
-          # ✅ IMPORTANT: matches your repo structure
-          app_location: "MediaAppBackend/media-app-frontend"
+          # ✅ FIXED PATH
+          app_location: "media-app-frontend"
           api_location: ""
 
   close_pull_request_job:
