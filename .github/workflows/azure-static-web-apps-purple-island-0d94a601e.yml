@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      # 🔍 DEBUG STEP (ADDED HERE)
+      # DEBUG STEP (ADDED HERE)
       - name: Debug folder structure
         run: ls -R
 
